@@ -1,6 +1,8 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    airbnb,
     car,
+    cloud,
     contact,
     css,
     estate,
@@ -20,6 +22,7 @@ import {
     redux,
     sass,
     snapgram,
+    starbuckSvg,
     summiz,
     tailwindcss,
     threads,
@@ -184,11 +187,11 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: airbnb,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Airbnb Clone',
+        description: 'Developed a full-stack Airbnb clone, allowing users to search for and book properties, and hosts to list their properties for rent.',
+        link: 'https://github.com/Piyushsingh03/airbnb-Clone',
     },
     {
         iconUrl: threads,
@@ -198,31 +201,31 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/threads',
     },
     {
-        iconUrl: car,
+        iconUrl: starbuckSvg,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Starbucks Landing Page',
+        description: 'Developed a responsive landing page for Starbucks, using HTML, CSS, and JavaScript.',
+        link: 'https://github.com/Piyushsingh03/starbucks-merry/tree/main/Starbucks',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'React Portfolio',
+        description: 'Developed a responsive portfolio website using React, Tailwind CSS, and Framer Motion.',
+        link: 'https://github.com/Piyushsingh03/React-Portfolio',
     },
     {
-        iconUrl: estate,
+        iconUrl: cloud,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Weather App',
+        description: 'Developed a weather app using React, and Tailwind CSS. The app displays the current weather conditions for a given location.',
+        link: 'https://github.com/Piyushsingh03/react_weather_app',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: '3D Portfolio',
+        description: 'Developed a 3D portfolio website using React, Three.js, and Framer Motion.',
+        link: 'https://github.com/Piyushsingh03/portfolio-in-3d',
     }
 ];
